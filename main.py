@@ -35,3 +35,24 @@
 # a=int(input('Wprowadź liczbę: '))
 # a=pow(a,a)
 # print(a)
+#
+# # zad5
+#
+# import sys as system
+# ilosc=int(input("Długość ciągu znaków: "))
+# x=0
+# lista=[system.stdin.readline()]
+# while x<ilosc-1:
+#     lista.append(system.stdin.readline())
+#     x+=1
+# print(lista)
+#
+# # zad6
+# a=int(input('Podaj a: '))
+# b=int(input('Podaj b: '))
+# c=int(input('Podaj c: '))
+#
+# if (a%2==0) & (b>c):
+#     print('Warunki a parzyste oraz b>c zostały spełnione')
+# else:
+#     print('Warunki a parzyste oraz b>c nie zostały spełnione')
