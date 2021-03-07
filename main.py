@@ -56,3 +56,29 @@
 #     print('Warunki a parzyste oraz b>c zostały spełnione')
 # else:
 #     print('Warunki a parzyste oraz b>c nie zostały spełnione')
+#
+# # zad8
+# x=0
+# lista=[input()]
+# while x<9:
+#     a=input()
+#     lista.append(a)
+#     x+=1
+# print(lista)
+#
+# # zad9
+# import sys as system
+# lista=[1,2,3,4,5,6]
+# for y in lista:
+#     for x in lista:
+#         if y==1:
+#             system.stdout.write('O')
+#         elif y==len(lista):
+#             system.stdout.write('O')
+#         elif x==1:
+#             system.stdout.write('O')
+#         elif x==len(lista):
+#             system.stdout.write('O')
+#         else:
+#             system.stdout.write(' ')
+#     print('\n')
