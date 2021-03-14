@@ -32,20 +32,18 @@
 #
 # # zad4
 # from math import *
-# a=int(input('Wprowadź liczbę: '))
+# a=float(input('Wprowadź liczbę: '))
 # a=pow(a,a)
 # print(a)
 #
 # # zad5
 #
 # import sys as system
-# ilosc=int(input("Długość ciągu znaków: "))
-# x=0
-# lista=[system.stdin.readline()]
-# while x<ilosc-1:
-#     lista.append(system.stdin.readline())
-#     x+=1
-# print(lista)
+# sys.stdout.write("Wczytaj tekst: ")
+# tekst = sys.stdin.readline()
+# sys.stdout.write(tekst)
+# sys.stdout.write(str(tekst.count("a")))
+# sys.stdout.write("\n")
 #
 # # zad6
 # a=int(input('Podaj a: '))
@@ -57,12 +55,24 @@
 # else:
 #     print('Warunki a parzyste oraz b>c nie zostały spełnione')
 #
+# # zad7
+# liczby = [1, 2, 3, 4, 5, 5.5]
+# print(liczby)
+# for i in range(0,len(liczby),1):
+#     if i == 0:
+#         print(liczby[i])
+#     else:
+#         suma = liczby[i] + liczby[i-1]
+#         print(suma)
+#
 # # zad8
 # x=0
-# lista=[input()]
-# while x<9:
+# lista=[]
+# while x<10:
 #     a=input()
-#     lista.append(a)
+#     if liczba.count(".")==0:
+#        int(liczba)
+#        lista.append(liczba)
 #     x+=1
 # print(lista)
 #
@@ -82,3 +92,11 @@
 #         else:
 #             system.stdout.write(' ')
 #     print('\n')
+#
+# zad10
+# try:
+#     wprowadzana_liczba = input("wprowadź liczbę: ")
+#     wprowadzana_liczba = float(wprowadzana_liczba)
+#     print(wprowadzana_liczba)
+# except ValueError:
+#     print("Wprowadzona wartość nie jest liczbą")
